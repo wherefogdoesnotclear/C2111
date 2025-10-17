@@ -97,8 +97,6 @@ class Cat:
         print(f"Чистота: {self.cleanliness}")
         print(f"Стан: {'живий 🐱' if self.alive else '😿 неактивний'}")
         print("-----------------------------\n")
-
-# Приклад використання
 murko = Cat("Мурко", 3)
 
 murko.status()
@@ -110,4 +108,5 @@ murko.sleep()
 murko.purr()
 murko.get_sick()
 murko.visit_vet()
+
 murko.status()
